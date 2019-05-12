@@ -1,6 +1,6 @@
 # Your code goes here!
 class Dog
-  attr_dog :name
+  attr_reader :name
 
   def bark
     puts "woof!"
