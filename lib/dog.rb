@@ -1,7 +1,6 @@
 # Your code goes here!
 class Dog
-  attr_accessor :name
-
+  attr_writer :name # Source: 
   def bark
     puts "woof!"
   end
