@@ -1,12 +1,6 @@
 # Your code goes here!
 class Dog
-  def name = (name)
-    @name = name
-  end
-
-  def name
-    @name
-  end
+  attr_dog :name
 
   def bark
     puts "woof!"
