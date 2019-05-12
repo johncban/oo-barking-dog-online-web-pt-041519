@@ -1,6 +1,7 @@
 # Your code goes here!
 class Dog
-  attr_writer :name # Source:
+  # Source: https://medium.com/the-renaissance-developer/ruby-101-object-oriented-programming-part-1-af734f87f481
+  attr_writer :name 
   attr_reader :name
 
   def bark
